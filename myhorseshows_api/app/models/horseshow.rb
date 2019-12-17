@@ -1,0 +1,2 @@
+class Horseshow < ApplicationRecord
+end
