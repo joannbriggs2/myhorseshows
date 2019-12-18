@@ -5,7 +5,7 @@ function Nav(props) {
     <nav>
       <img
         className="smallimage"
-        src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/20882183_1820777457939457_1969598693857082343_n.jpg?_nc_cat=100&_nc_ohc=5H0QJRx7kLkAQkvmdFw0Y7_uq8S4uyR2REnLbAHERW6RqE4Ep3Tgm1XGg&_nc_ht=scontent-lga3-1.xx&oh=e7a32562ab5ed8a61729aeafe650f8ae&oe=5E6F7183"
+        src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/39067685_2276509005699631_5600146778524483584_n.jpg?_nc_cat=101&_nc_ohc=9wUz_8BObyEAQkN9nPeUAwn9nsVexDPQzIdnUBF75Z1iDoD-pV2hziRHA&_nc_ht=scontent-lga3-1.xx&oh=19f5d4b5f350478cdf63e0717da28a54&oe=5E7DCA4D"
         alt="horse"
       ></img>
 

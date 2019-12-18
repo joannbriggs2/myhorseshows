@@ -3,7 +3,7 @@ import React from "react";
 function Header(props) {
   return (
     <header>
-      <h1>Horse Show Calendar of Events</h1>
+      <h1>My Horse Show Calendar</h1>
     </header>
   );
 }
