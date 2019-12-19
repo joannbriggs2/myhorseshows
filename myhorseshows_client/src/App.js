@@ -31,7 +31,7 @@ class App extends React.Component {
     const response = await axios(`${BASE_URL}/horseshows`);
     const data = response.data;
     this.setState({
-      horseshows: data
+      horseshows: data.reverse()
     });
   }
   async handleDelete(deletedHorseshow) {
