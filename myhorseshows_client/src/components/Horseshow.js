@@ -1,6 +1,8 @@
 import React from "react";
 import Form from "./Form.js";
 
+import Button from "react-bootstrap/Button";
+
 class Horseshow extends React.Component {
   constructor(props) {
     super(props);
@@ -41,8 +43,12 @@ class Horseshow extends React.Component {
             </small>
 
             <p></p>
-            <button onClick={() => handleDelete(horseshow)}>Delete</button>
-            <button onClick={this.toggleForm}>Edit this Show</button>
+            <Button variant="danger" onClick={() => handleDelete(horseshow)}>
+              Delete
+            </Button>
+            <Button variant="info" onClick={this.toggleForm}>
+              Edit this Show
+            </Button>
           </div>
         )}
       </>

@@ -11,13 +11,13 @@
 h1 {
   text-align: center;
 }
-.container {
+.main {
   display: grid;
 
   grid-template-areas:
     "header header header"
-    "nav content aside"
-    "footer footer footer";
+    "nav content aside";
+  /* "footer footer footer"; */
   grid-template-columns: 30% 1fr 40%;
   grid-template-rows: auto 1fr 200px;
   grid-gap: 10px;
@@ -31,7 +31,7 @@ header {
 
 nav {
   grid-area: nav;
-  margin-left: 0.5rem;
+  /* margin-left: 0.5rem; */
   background-color: var(--oasis-green);
 }
 
@@ -56,15 +56,15 @@ footer {
   font-family: "Stylish", sans-serif;
 }
 .smallimage {
-  height: 475px;
+  max-height: 475px;
   width: 475px;
   margin-left: 10px;
   margin-top: 10px;
 }
 
 img {
-  height: 640px;
-  width: 640px;
+  max-height: 640px;
+  max-width: 640px;
   margin-left: 10px;
   margin-top: 10px;
 }
@@ -94,7 +94,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .container {
+  .main {
     grid-template-areas:
       "header"
       "nav"
